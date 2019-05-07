@@ -1,0 +1,4 @@
+# Text-Analysis---Ontolligent-Corpus
+
+The goal of the project was to uncover media bias through textual analysis. For the corpus, we used news headlines and google news summaries captured through RSS feeds on ontolligent.com/newzy. We then used information from media bias check to confer labels (left wing, center and right wing) to each news article based on the media house that published them. For pre processing our data we used text processing techniques using the NLTK libraries to tokenize, lemmatize and remove stop words from the corpus. As the majority of news were from left wing news houses, we balanced classes through random but representative downsampling to ensure no bias seeped through our analysis. 
+We performed topic modelling, sentiment analysis, word frequency analysis and data visualization to uncover hidden patterns in our data. 
